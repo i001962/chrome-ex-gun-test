@@ -1,0 +1,13 @@
+{
+  "name": "Typed URL History to Gun",
+  "version": "0.1",
+  "description": "Reads your history, and shows the top ten pages you go to by typing the URL. When you click a URL it is sent to GunDb",
+  "permissions": [
+    "history"
+  ],
+  "browser_action": {
+    "default_popup": "typedUrls.html",
+    "default_icon": "clock.png"
+  },
+  "manifest_version": 2
+}
